@@ -11,15 +11,16 @@ import { TextInput, TextInputProps } from 'react-native'
 
 // Type prop of TextInputMask.
 export type TextInputMaskTypeProp =
+    | 'document'
     | 'credit-card'
     | 'cpf'
     | 'cnpj'
     | 'zip-code'
-    | 'no-mask'
     | 'only-numbers'
     | 'money'
     | 'cel-phone'
     | 'datetime'
+    | 'no-mask'
     | 'custom'
 
 // Option prop of TextInputMask.
