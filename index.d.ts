@@ -22,6 +22,7 @@ export type TextInputMaskTypeProp =
     | 'datetime'
     | 'no-mask'
     | 'custom'
+    | 'account-bank'
 
 // Option prop of TextInputMask.
 export interface TextInputMaskOptionProp {
